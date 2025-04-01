@@ -1,0 +1,17 @@
+# Project-wide Gradle settings.
+# IDE (e.g. Android Studio) may automatically overwrite this file with settings.
+
+# Specifies whether to enable or disable offline mode.
+org.gradle.daemon=true
+org.gradle.parallel=true
+
+# JVM settings for Gradle
+org.gradle.jvmargs=-Xmx2048m
+
+# Enable Android build cache
+android.useAndroidX=true
+android.enableJetifier=true
+
+# Set the Gradle build version for your project
+# This can help ensure compatibility with certain Android tools or libraries
+gradle.build.version=7.0.4
